@@ -21,9 +21,6 @@ include vendor/samsung/a21s/BoardConfigVendor.mk
 
 DEVICE_PATH := device/samsung/a21s
 
-## APEX image
-DEXPREOPT_GENERATE_APEX_IMAGE := true
-
 ## OTA TARGET
 TARGET_OTA_ASSERT_DEVICE := a21s
 
