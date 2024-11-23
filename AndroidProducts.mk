@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The LineageOS Project
+# Copyright (C) 2020-2024 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_gta4xlwifi.mk
+    $(LOCAL_DIR)/lineage_a21snsxx.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_gta4xlwifi-eng \
-    lineage_gta4xlwifi-user \
-    lineage_gta4xlwifi-userdebug
+    lineage_a21snsxx-eng \
+    lineage_a21snsxx-user \
+    lineage_a21snsxx-userdebug

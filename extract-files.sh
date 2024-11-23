@@ -22,8 +22,8 @@ fi
 
 set -e
 
-export DEVICE=gta4xlwifi
-export DEVICE_COMMON=gta4xl-common
+export DEVICE=a21snsxx
+export DEVICE_COMMON=a21s-common
 export VENDOR=samsung
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

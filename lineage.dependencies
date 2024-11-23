@@ -1,6 +1,7 @@
 [
     {
-        "repository": "android_device_samsung_gta4xl-common",
-        "target_path": "device/samsung/gta4xl-common"
+        "repository": "samsungexynos850/android_device_samsung_a21s-common",
+        "target_path": "device/samsung/a21s-common",
+		"branch": "lineage-19.1"
     }
 ]
