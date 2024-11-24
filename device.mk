@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+DEVICE_PATH = device/samsung/a21snsxx
+
 # Inherit from the common tree
 $(call inherit-product, device/samsung/a21s-common/common.mk)
 
@@ -25,10 +27,10 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
 # SKU
 ODM_MANIFEST_SKUS += hce hceese hcesim hcesimese
-ODM_MANIFEST_HCE_FILES := $(COMMON_PATH)/manifest_hce.xml
-ODM_MANIFEST_HCEESE_FILES := $(COMMON_PATH)/manifest_hceese.xml
-ODM_MANIFEST_HCESIM_FILES := $(COMMON_PATH)/manifest_hcesim.xml
-ODM_MANIFEST_HCESIMESE_FILES := $(COMMON_PATH)/manifest_hcesimese.xml
+ODM_MANIFEST_HCE_FILES := $(DEVICE_PATH)/nfc/manifest_hce.xml
+ODM_MANIFEST_HCEESE_FILES := $(DEVICE_PATH)/nfc/manifest_hceese.xml
+ODM_MANIFEST_HCESIM_FILES := $(DEVICE_PATH)/nfc/manifest_hcesim.xml
+ODM_MANIFEST_HCESIMESE_FILES := $(DEVICE_PATH)/nfc/manifest_hcesimese.xml
 
 # NFC and Secure Element packages
 PRODUCT_PACKAGES += \
