@@ -8,6 +8,8 @@
 
 set -e
 
+export TARGET_ENABLE_CHECKELF=false
+
 export DEVICE=a21s
 export DEVICE_COMMON=a21s-common
 export VENDOR=samsung

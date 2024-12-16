@@ -12,6 +12,8 @@ if [ "${BASH_SOURCE[0]}" != "${0}" ]; then
     return
 fi
 
+export TARGET_ENABLE_CHECKELF=false
+
 set -e
 
 export DEVICE=a21s
