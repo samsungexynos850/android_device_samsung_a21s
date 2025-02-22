@@ -4,10 +4,4 @@
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
-vendor/bin/hw/sec.android.hardware.nfc@1.2-service
-vendor/lib64/vendor.samsung.hardware.nfc@2.0.so
-vendor/lib64/nfc_nci_sec.so
-vendor/etc/libnfc-sec-vendor.conf
-vendor/etc/init/init.nfc.samsung.rc
-vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
--vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml
+-vendor/etc/libnfc-sec-vendor.conf
