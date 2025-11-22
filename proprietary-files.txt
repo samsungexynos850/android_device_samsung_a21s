@@ -4,4 +4,3 @@
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
 vendor/firmware/nfc/sec_s3nrn4v_firmware.bin
-vendor/etc/libnfc-sec-vendor.conf
